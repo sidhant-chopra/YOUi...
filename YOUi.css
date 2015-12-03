@@ -1,0 +1,106 @@
+/* Index starts */
+.navbar-default {
+    background-color: #fff !important;
+    box-shadow: 0 5px 15px #f5f5f5 !important;
+}
+
+/* Users List starts*/ 
+.user-block {
+	width: 300px;
+	box-shadow: 5px 5px 20px #e5e5e5;
+	border-radius: 3px;
+	float: left;
+	margin: 1em 3em;
+	cursor: pointer;
+}
+
+.user-block:hover {
+	transform: translate3d(0,-1px,0);
+}
+
+.users-image-block {
+	float: left;
+	margin-top: 3em;
+    margin-left: 1em;
+    border: 4px solid white;
+    border-radius: 3px;
+}
+
+.user-list-desc {
+	padding-left: 3%;
+}
+
+.list-bg {
+	height: 70px;
+    background: #14866E;
+    border-radius: 3px;
+}
+
+#list-name {
+	font-size: 14px !important;
+	padding-left: 75px;
+}
+
+.type {
+	float: right;
+    padding: 5px;
+    font-size: 110%;
+    color: #fff;
+}
+/* Users List ends*/ 
+
+/* User Detail Starts*/
+.detail-block {
+	box-shadow: 5px 5px 20px #e5e5e5,-5px -5px 20px #e5e5e5;
+	border-radius: 3px;
+}
+
+#name {
+	font-size: 17px !important;
+}
+
+#email {
+	font-size: 13px !important;
+}
+
+.no-margin {
+	margin: 0 !important;
+}
+
+.image-block {
+	float: left;
+	margin-top: 2em;
+    margin-left: 1em;
+    border: 4px solid white;
+    border-radius: 3px;
+}
+
+.bg {
+	height: 100px;
+    background: #14866E;
+    border-radius: 3px;
+}
+
+.desc {
+	padding-left: 3%;
+	margin-top: 5em;
+}
+
+.desc-name .fa {
+	color: #14866E;
+}
+
+.desc-name p {
+	margin-bottom: 5px;
+}
+
+.desc-repos {
+	display: flex;
+}
+
+.desc-repos div{
+	margin: 5px 3em 5px 5px;
+	color: #666;
+}
+
+/* User Detail Ends*/

@@ -1,0 +1,16 @@
+<div class="user-block" ng-repeat ="users in userList" ui-sref = 'user_detail({ username: users.login})'>
+	<div class="list-bg">
+	<div class="type">
+	<i class="fa fa-sitemap" ng-if="users.type == 'Organization'" data-toggle="tooltip" title="Organization"></i>
+	<i class="fa fa-user" ng-if="users.type == 'User'" data-toggle="tooltip" title="User"></i>
+	</div>
+		<span class="users-image-block">
+			<img ng-src="{{users.avatar_url}}" width="50"/>
+		</span>
+	</div>
+	<div class="user-list-desc">
+		<div class="list-desc-name">
+	    	<p id="list-name" class="no-margin"><strong>{{users.login}}</strong></p>
+	    </div>
+	</div>
+</div>

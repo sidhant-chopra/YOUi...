@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>YOUi...</title>
+    <meta name="description" content="UserFolio">
+    <meta name="Sidhant">
+    <link rel="shortcut icon" href="misc/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="YOUi.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.0-beta.2/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+
+  <body ng-app = "app">
+
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+              YOUi...
+            </a>
+          </div>
+        </div>
+      </nav>
+      <div ui-view></div>
+
+    </div>
+
+    <script src="app.js"></script>
+    <script src="user_list/user_list.js"></script>
+    <script src="user_list/userController.js"></script>
+    <script src="user_list/userService.js"></script>
+    <script src="user_detail/user_detail.js"></script>
+    <script src="user_detail/user_detail_controller.js"></script>
+    <script src="user_detail/user_detail_service.js"></script>
+
+  </body>
+</html>

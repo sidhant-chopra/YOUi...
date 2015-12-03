@@ -1,0 +1,26 @@
+<div class="detail-block" ng-cloak>
+	<div class="bg">
+		<span class="image-block">
+			<img ng-src="{{userProfile.avatar_url}}" width="200"/>
+		</span>
+	</div>
+	<div class="desc-repos">
+		<div>
+			<p>Repos</p><p>{{userProfile.public_repos}}</p>
+		</div>
+		<div>
+			<p>Followers</p><p>{{userProfile.followers}}</p>
+		</div>
+		<div>
+			<p>Following</p><p>{{userProfile.following}}</p>
+		</div>
+	</div> 
+</div>
+<div class="desc">
+	<div class="desc-name">
+    	<p id="name"><strong>{{userProfile.name}}</strong></p>
+    	<p id="email" ng-if="userProfile.email"><i class="fa fa-envelope-o"></i> {{userProfile.email}}</p>
+    	<p id="location" ng-if="userProfile.location"><i class="fa fa-map-marker"></i> {{userProfile.location}}</p>
+    	<p id="join"><i class="fa fa-calendar-check-o"></i> Joined {{userProfile.created_at | date:'MMM dd,yyyy'}}</p>
+    </div>
+</div>
